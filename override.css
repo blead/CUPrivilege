@@ -1,0 +1,36 @@
+body {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	color: #FFF;
+	background-color: #000;
+}
+.jumbotron {
+	background-color: #111;
+}
+
+a {
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+	background-color: #555;
+}
+
+.dropdown-menu {
+	background-color: #222;
+}
+.dropdown-menu > li > a {
+	color: #F5F5F5;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	color: #FFF;
+	background-color: #555;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+	background-color: #080808;
+}
