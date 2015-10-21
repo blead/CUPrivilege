@@ -54,29 +54,29 @@ a {
 	color: #FFF;
 }
 .jumbotron[id="cu-privilege"] {
-	background-image: url("images/bg_cu_privilege.png");
+	background-image: url("images/bg_cu_privilege.jpg");
 	background-size: cover;
 }
 .jumbotron[id="news"] {
-	background-image: url("images/bg_news.png");
+	background-image: url("images/bg_news.jpg");
 	background-size: cover;
 }
 .jumbotron[id="privileges"] {
-	background-image: url("images/bg_privileges.png");
+	background-image: url("images/bg_privileges.jpg");
 	background-size: cover;
 	color: #222;
 }
 .jumbotron[id="calendar"] {
-	background-image: url("images/bg_calendar.png");
+	background-image: url("images/bg_calendar.jpg");
 	background-size: cover;
 	color: #222;
 }
 .jumbotron[id="bookmarks"] {
-	background-image: url("images/bg_bookmarks.png");
+	background-image: url("images/bg_bookmarks.jpg");
 	background-size: cover;
 }
 .jumbotron[id="download"] {
-	background-image: url("images/bg_download.png");
+	background-image: url("images/bg_download.jpg");
 	background-size: cover;
 }
 .text-primary {
