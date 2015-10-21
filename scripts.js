@@ -28,3 +28,13 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 				$(this).collapse('hide');
 		}
 });
+
+//Automatically sets jumbotron size to viewport size
+$(window).resize(function(){
+	var viewportHeight = $(window).height();
+	$('.jumbotron').css('min-height',viewportHeight-50);
+});
+$(document).ready(function(){
+	var viewportHeight = $(window).height();
+	$('.jumbotron').css('min-height',viewportHeight-50); //navbar offset
+});

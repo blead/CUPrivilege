@@ -53,28 +53,30 @@ a {
 	background-color: #4264AA;
 	color: #FFF;
 }
-#cu-privilege {
-	/*background-image: url("");*/
+.jumbotron[id="cu-privilege"] {
+	background-image: url("images/bg_cu_privilege.png");
 	background-size: cover;
 }
-#news {
-	/*background-image: url("");*/
+.jumbotron[id="news"] {
+	background-image: url("images/bg_news.png");
 	background-size: cover;
 }
-#privileges {
-	/*background-image: url("");*/
+.jumbotron[id="privileges"] {
+	background-image: url("images/bg_privileges.png");
+	background-size: cover;
+	color: #222;
+}
+.jumbotron[id="calendar"] {
+	background-image: url("images/bg_calendar.png");
+	background-size: cover;
+	color: #222;
+}
+.jumbotron[id="bookmarks"] {
+	background-image: url("images/bg_bookmarks.png");
 	background-size: cover;
 }
-#calendar {
-	/*background-image: url("");*/
-	background-size: cover;
-}
-#bookmarks {
-	/*background-image: url("");*/
-	background-size: cover;
-}
-#download {
-	/*background-image: url("");*/
+.jumbotron[id="download"] {
+	background-image: url("images/bg_download.png");
 	background-size: cover;
 }
 .text-primary {
