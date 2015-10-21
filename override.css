@@ -6,9 +6,8 @@ body {
 	background-color: #000;
 }
 .jumbotron {
-	background-color: #111;
+	background-color: #222;
 }
-
 a {
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -16,11 +15,20 @@ a {
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
-
+.navbar-inverse {
+	background-color: #2D2D2D;
+}
+.navbar-inverse .navbar-brand {
+	background-color: #FF4D7D;
+	color: #F5F5F5;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+	background-color: #FE679C;
+	color: #FFF;
+}
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
 	background-color: #555;
 }
-
 .dropdown-menu {
 	background-color: #222;
 }
@@ -33,4 +41,42 @@ a {
 }
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
 	background-color: #080808;
+}
+.well {
+	margin-top: 20px;
+}
+#facebook-link {
+	background-color: #3B5998;
+	color: #F5F5F5;
+}
+#facebook-link:focus, #facebook-link:hover {
+	background-color: #4264AA;
+	color: #FFF;
+}
+#cu-privilege {
+	/*background-image: url("");*/
+	background-size: cover;
+}
+#news {
+	/*background-image: url("");*/
+	background-size: cover;
+}
+#privileges {
+	/*background-image: url("");*/
+	background-size: cover;
+}
+#calendar {
+	/*background-image: url("");*/
+	background-size: cover;
+}
+#bookmarks {
+	/*background-image: url("");*/
+	background-size: cover;
+}
+#download {
+	/*background-image: url("");*/
+	background-size: cover;
+}
+.text-primary {
+	color: #FE679C;
 }
